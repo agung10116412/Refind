@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#E43F3F</color>
+  <color name="primary_dark">#E12929</color>
+  <color name="primary_darker">#CC1D1D</color>
+  <color name="accent">#FFFFFF</color>
+  <color name="btnfb">#4B69A5</color>
+
+  <color name="black">#000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#fff2f3f5</color>
+  <color name="white">#FFFFFF</color>
+  <color name="whiteTrans">#aaaaaa</color>
+  <color name="mymessage">#F2B134</color>
+  <color name="yourmessage">#4FB99F</color>
+</resources>

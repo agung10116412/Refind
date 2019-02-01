@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Refind</string>
+
+    <string name="facebook_app_id">209857606614481</string>
+    <string name="fb_login_protocol_scheme">fb209857606614481</string>
+
+
+    <string name="home">Home</string>
+    <string name="nearby">Nearby</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="error_timeout">Check your connection and try again</string>
+    <string name="error_authlain">Username / Password Not Available</string>
+    <string name="error_server">Server is having problems</string>
+    <string name="error_networkerror">Check your connection and try again</string>
+    <string name="error_parseerror">The app is experiencing a problem</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <integer name="limitConnection">5000</integer>
+</resources>

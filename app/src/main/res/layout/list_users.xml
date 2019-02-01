@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    android:clipToPadding="true">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/bankcardId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/gambar_nearby"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/accent"
+                    android:src="@drawable/logo2"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="Laki-Laki"
+                    android:clickable="true"
+                    android:id="@+id/gender_nearby"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:id="@+id/jarak_nearby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="500 m"
+                    android:padding="5dp"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

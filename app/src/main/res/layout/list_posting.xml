@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/photo" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/profile"
+                android:paddingBottom="5dp"
+                android:text="Heykiiw"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_toRightOf="@+id/profile"
+                android:text="Free android tutorials and examples for beginners and expert."
+                android:textColor="#8b8b8b" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/like"
+            android:layout_gravity="bottom|right"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="90dp"/>
+
+        <TextView
+            android:id="@+id/qty_komen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="#8b8b8b"
+            android:layout_gravity="bottom|right"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/komen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat"
+            android:layout_gravity="bottom|right"
+            android:layout_marginTop="110dp"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="35dp"/>
+
+        <TextView
+            android:id="@+id/qty_suka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="#8b8b8b"
+            android:layout_gravity="bottom|right"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="68dp"/>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

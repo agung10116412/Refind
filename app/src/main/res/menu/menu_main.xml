@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/nearby"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/nearby" />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_chat_bubble_black_24dp"
+        android:title="@string/chat" />
+    <!--<item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/profile" />-->
+</menu>
